@@ -131,8 +131,5 @@ python3 main.py
 ```
 
 Please refer to the demonstration video for more details (demo.webm)
-# ERCC-Python
-# ERCC-Python
-# ERCC-Python
-# ERCC-Python
-# ERCC-Python
+
+
