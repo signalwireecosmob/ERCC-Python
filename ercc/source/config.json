@@ -1,0 +1,39 @@
+{
+  "SIGNALWIRE_CONFIG": {
+    "PROJECT_ID": "YOUR_PROJECT_ID",
+    "APP_TOKEN": "YOUR_APP_TOKEN"
+  },
+  "GOOGLE_CONFIG": "ercc_project/service_account.json",
+  "DIALING_LIST_VOICE": [
+    {
+      "servicenumber": "+*********", "number_list": ["+**********"]
+    }
+  ],
+  "DIALING_LIST_SMS": [
+    {
+      "servicenumber": "+*********", "number_list": ["+*********"]
+    }
+  ],
+  "PREDEFINED_EMERGENCY_MENU":
+   {
+    "SUB_MENU_PHRASE":"Press 1 to notify Fire in building, Press 2 to notify Emergenncy help needed",
+    "DTMF_ALLOWED":["1","2"]
+   }
+  ,
+  
+  "DIALING_LIST_VOICE_PHRASE":
+    {
+      "DTMF_1": "Fire in building notification is raised by someone",
+      "DTMF_2": "Emergency help needed notification is raised by someone"
+    },
+
+  "DIALING_LIST_SMS_PHRASE":
+    {
+      "DTMF_1": "Fire in building notification is raised by someone",
+      "DTMF_2": "Emergency help needed notification is raised by someone"
+    },
+  "IVR_AUDIO_GENDER":"female",
+  "DIGIT_INPUT_TIMEOUT" : 7,
+  "MAX_TRIES" : 3
+  
+}
